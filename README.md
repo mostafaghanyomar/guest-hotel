@@ -21,8 +21,8 @@ http://localhost:8081/my-hotel/auth/login
 http://localhost:8081/my-hotel/swagger-ui.html
 
 - Only Users with the role STAFF can access the rooms data:
-localhost:8081/my-hotel/api/hotel/rooms
+http://localhost:8081/my-hotel/api/hotel/rooms
 - And Users with the role GUEST can access the reservation endpoint:
-localhost:8081/my-hotel/api/book/room
+http://localhost:8081/my-hotel/api/book/room
 
 You have to use the token in the header of all the secured services which are under "/api", you also can change this path in the properties file.
